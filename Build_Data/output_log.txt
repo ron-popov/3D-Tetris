@@ -7,23 +7,49 @@ Direct3D:
     VRAM:     2111 MB
     Driver:   21.20.16.4494
 Begin MonoManager ReloadAssembly
-Platform assembly: C:\Files\3D Tetris\3D Tetris\Build_Data\Managed\UnityEngine.dll (this message is harmless)
-Loading C:\Files\3D Tetris\3D Tetris\Build_Data\Managed\UnityEngine.dll into Unity Child Domain
-Platform assembly: C:\Files\3D Tetris\3D Tetris\Build_Data\Managed\Assembly-CSharp.dll (this message is harmless)
-Loading C:\Files\3D Tetris\3D Tetris\Build_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
-Platform assembly: C:\Files\3D Tetris\3D Tetris\Build_Data\Managed\UnityEngine.UI.dll (this message is harmless)
-Loading C:\Files\3D Tetris\3D Tetris\Build_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
-Platform assembly: C:\Files\3D Tetris\3D Tetris\Build_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
-Loading C:\Files\3D Tetris\3D Tetris\Build_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
-Platform assembly: C:\Files\3D Tetris\3D Tetris\Build_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll (this message is harmless)
-Loading C:\Files\3D Tetris\3D Tetris\Build_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll into Unity Child Domain
-- Completed reload, in  0.029 seconds
-Platform assembly: C:\Files\3D Tetris\3D Tetris\Build_Data\Managed\System.Core.dll (this message is harmless)
-Platform assembly: C:\Files\3D Tetris\3D Tetris\Build_Data\Managed\System.dll (this message is harmless)
+Platform assembly: C:\_Files\Work\3D Tetris\Build_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\_Files\Work\3D Tetris\Build_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\_Files\Work\3D Tetris\Build_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\_Files\Work\3D Tetris\Build_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\_Files\Work\3D Tetris\Build_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\_Files\Work\3D Tetris\Build_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\_Files\Work\3D Tetris\Build_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\_Files\Work\3D Tetris\Build_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\_Files\Work\3D Tetris\Build_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll (this message is harmless)
+Loading C:\_Files\Work\3D Tetris\Build_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll into Unity Child Domain
+Platform assembly: C:\_Files\Work\3D Tetris\Build_Data\Managed\libpxcclr.unity.dll (this message is harmless)
+Loading C:\_Files\Work\3D Tetris\Build_Data\Managed\libpxcclr.unity.dll into Unity Child Domain
+- Completed reload, in  0.040 seconds
+Platform assembly: C:\_Files\Work\3D Tetris\Build_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\_Files\Work\3D Tetris\Build_Data\Managed\System.dll (this message is harmless)
 desktop: 1366x768 60Hz; virtual: 1366x768 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
 <RI> Initialized touch support.
-UnloadTime: 2.659680 ms
+UnloadTime: 2.783149 ms
+PXCMSenseManager.CreateInstance: succeeded
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+PXCMSenseManager.EnableHand PXCM_STATUS_NO_ERROR
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Configure Hand
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+PXCMSenseManager.EnableFace PXCM_STATUS_NO_ERROR
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Configure Face
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+PXCMSenseManager.Init: PXCM_STATUS_ITEM_UNAVAILABLE
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
 Setting up 1 worker threads for Enlighten.
-  Thread -> id: 299c -> priority: 1 
+  Thread -> id: 27fc -> priority: 1 

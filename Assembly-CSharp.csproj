@@ -50,7 +50,79 @@
      <Compile Include="Assets\GameController.cs" />
      <Compile Include="Assets\GameMaster.cs" />
      <Compile Include="Assets\ImageLoader.cs" />
+     <Compile Include="Assets\Plugins.Managed\pxcmdefs.extensions.cs" />
+     <Compile Include="Assets\RSUnityToolkit\Actions\ActivateAction.cs" />
+     <Compile Include="Assets\RSUnityToolkit\Actions\BlendShapeAnimationAction.cs" />
+     <Compile Include="Assets\RSUnityToolkit\Actions\DeactivateAction.cs" />
+     <Compile Include="Assets\RSUnityToolkit\Actions\DisableBehaviorAction.cs" />
+     <Compile Include="Assets\RSUnityToolkit\Actions\EnableBehaviorAction.cs" />
+     <Compile Include="Assets\RSUnityToolkit\Actions\HideAction.cs" />
+     <Compile Include="Assets\RSUnityToolkit\Actions\RotationAction.cs" />
+     <Compile Include="Assets\RSUnityToolkit\Actions\ScaleAction.cs" />
+     <Compile Include="Assets\RSUnityToolkit\Actions\SendMessageAction.cs" />
+     <Compile Include="Assets\RSUnityToolkit\Actions\ShowAction.cs" />
+     <Compile Include="Assets\RSUnityToolkit\Actions\TrackingAction.cs" />
+     <Compile Include="Assets\RSUnityToolkit\Actions\TranslateAction.cs" />
+     <Compile Include="Assets\RSUnityToolkit\Internals\Actions Utils\BaseAction.cs" />
+     <Compile Include="Assets\RSUnityToolkit\Internals\Actions Utils\Bool3D.cs" />
+     <Compile Include="Assets\RSUnityToolkit\Internals\Actions Utils\CameraARCalibation.cs" />
+     <Compile Include="Assets\RSUnityToolkit\Internals\Actions Utils\Draw3DSegmentation.cs" />
+     <Compile Include="Assets\RSUnityToolkit\Internals\Actions Utils\DrawImages.cs" />
+     <Compile Include="Assets\RSUnityToolkit\Internals\Actions Utils\MinMax2D.cs" />
+     <Compile Include="Assets\RSUnityToolkit\Internals\Actions Utils\PointCloudViewer.cs" />
+     <Compile Include="Assets\RSUnityToolkit\Internals\Actions Utils\RotationConstraints.cs" />
+     <Compile Include="Assets\RSUnityToolkit\Internals\Actions Utils\RotationMax2D.cs" />
+     <Compile Include="Assets\RSUnityToolkit\Internals\Actions Utils\ScaleConstraints.cs" />
+     <Compile Include="Assets\RSUnityToolkit\Internals\Actions Utils\SmoothingUtility.cs" />
+     <Compile Include="Assets\RSUnityToolkit\Internals\Actions Utils\Transformation3D.cs" />
+     <Compile Include="Assets\RSUnityToolkit\Internals\Actions Utils\VirtualWorldBoxAction.cs" />
+     <Compile Include="Assets\RSUnityToolkit\Internals\Debug\DebugAction.cs" />
+     <Compile Include="Assets\RSUnityToolkit\Internals\HiddenBehaviour.cs" />
+     <Compile Include="Assets\RSUnityToolkit\Internals\RealSenseInput\MCTTypes.cs" />
+     <Compile Include="Assets\RSUnityToolkit\Internals\RealSenseInput\SenseOption.cs" />
+     <Compile Include="Assets\RSUnityToolkit\Internals\RealSenseInput\SenseToolkitManager.cs" />
+     <Compile Include="Assets\RSUnityToolkit\Internals\RealSenseInput\SenseToolkitSpeechManager.cs" />
+     <Compile Include="Assets\RSUnityToolkit\Internals\Rules\AlwaysTrueRule.cs" />
+     <Compile Include="Assets\RSUnityToolkit\Internals\Rules\BaseRule.cs" />
+     <Compile Include="Assets\RSUnityToolkit\Internals\Rules\BlobDetectedRule.cs" />
+     <Compile Include="Assets\RSUnityToolkit\Internals\Rules\BlobLostRule.cs" />
+     <Compile Include="Assets\RSUnityToolkit\Internals\Rules\BlobTrackingRule.cs" />
+     <Compile Include="Assets\RSUnityToolkit\Internals\Rules\FaceDetectedRule.cs" />
+     <Compile Include="Assets\RSUnityToolkit\Internals\Rules\FaceLostRule.cs" />
+     <Compile Include="Assets\RSUnityToolkit\Internals\Rules\FaceTrackingRule.cs" />
+     <Compile Include="Assets\RSUnityToolkit\Internals\Rules\FacialExpressionAnimationRule.cs" />
+     <Compile Include="Assets\RSUnityToolkit\Internals\Rules\FacialExpressionDetectedRule.cs" />
+     <Compile Include="Assets\RSUnityToolkit\Internals\Rules\FacialExpressionLostRule.cs" />
+     <Compile Include="Assets\RSUnityToolkit\Internals\Rules\GestureDetectedRule.cs" />
+     <Compile Include="Assets\RSUnityToolkit\Internals\Rules\GestureLostRule.cs" />
+     <Compile Include="Assets\RSUnityToolkit\Internals\Rules\HandClosedRule.cs" />
+     <Compile Include="Assets\RSUnityToolkit\Internals\Rules\HandDetectedRule.cs" />
+     <Compile Include="Assets\RSUnityToolkit\Internals\Rules\HandLostRule.cs" />
+     <Compile Include="Assets\RSUnityToolkit\Internals\Rules\HandMoveRule.cs" />
+     <Compile Include="Assets\RSUnityToolkit\Internals\Rules\HandOpennedRule.cs" />
+     <Compile Include="Assets\RSUnityToolkit\Internals\Rules\HandTrackingRule.cs" />
+     <Compile Include="Assets\RSUnityToolkit\Internals\Rules\ObjectDetectedRule.cs" />
+     <Compile Include="Assets\RSUnityToolkit\Internals\Rules\ObjectLostRule.cs" />
+     <Compile Include="Assets\RSUnityToolkit\Internals\Rules\ObjectTrackingRule.cs" />
+     <Compile Include="Assets\RSUnityToolkit\Internals\Rules\SpeechDetectedRule.cs" />
+     <Compile Include="Assets\RSUnityToolkit\Internals\Rules\TwoHandsDetectedRule.cs" />
+     <Compile Include="Assets\RSUnityToolkit\Internals\Rules\TwoHandsInteractionRule.cs" />
+     <Compile Include="Assets\RSUnityToolkit\Internals\Rules\TwoHandsLostRule.cs" />
+     <Compile Include="Assets\RSUnityToolkit\Internals\Rules\Utils\BlobUtilityClass.cs" />
+     <Compile Include="Assets\RSUnityToolkit\Internals\Rules\Utils\SpeechCommand.cs" />
+     <Compile Include="Assets\RSUnityToolkit\Internals\Rules\Utils\TrackingUtilityClass.cs" />
+     <Compile Include="Assets\RSUnityToolkit\Internals\Triggers\AnimationTrigger.cs" />
+     <Compile Include="Assets\RSUnityToolkit\Internals\Triggers\EventTrigger.cs" />
+     <Compile Include="Assets\RSUnityToolkit\Internals\Triggers\RotationTrigger.cs" />
+     <Compile Include="Assets\RSUnityToolkit\Internals\Triggers\ScaleTrigger.cs" />
+     <Compile Include="Assets\RSUnityToolkit\Internals\Triggers\TrackTrigger.cs" />
+     <Compile Include="Assets\RSUnityToolkit\Internals\Triggers\TranslationTrigger.cs" />
+     <Compile Include="Assets\RSUnityToolkit\Internals\Triggers\Trigger.cs" />
+     <Compile Include="Assets\RSUnityToolkit\Samples\SampleTriggerRegistration.cs" />
+     <Compile Include="Assets\RSUnityToolkit\Samples\TargetCounter.cs" />
      <Compile Include="Assets\RoundOverDetector.cs" />
+     <Compile Include="Assets\SenseInput.cs" />
+     <None Include="Assets\RSUnityToolkit\Internals\Materials\Occlusion.shader" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
@@ -68,6 +140,9 @@
  </Reference>
  <Reference Include="UnityEngine.VR">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll</HintPath>
+ </Reference>
+ <Reference Include="libpxcclr.unity">
+ <HintPath>C:/_Files/Work/3D Tetris/Assets/Plugins.Managed/libpxcclr.unity.dll</HintPath>
  </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
